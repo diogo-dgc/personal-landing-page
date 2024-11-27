@@ -1,0 +1,17 @@
+{
+  "name": "personal-landing-page",
+  "version": "0.1.2",
+  "description": "Personal landing page to share portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "landingpage"
+  ],
+  "author": "Diogo Cunha",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^5.0.0"
+  }
+}
