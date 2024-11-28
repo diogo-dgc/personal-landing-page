@@ -53,6 +53,15 @@ button {
 
 button:hover {
   background-color: var(--text-color-dark);
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
 }
 
 body {
@@ -135,7 +144,6 @@ main {
 
 .banner-section-row {
   display: flex;
-  
   margin: 80px 160px 24px;
 }
 
@@ -147,7 +155,7 @@ main {
 
 .banner-news{
   
-  background-color: #9ca4ff;
+  background-color: var(--text-color-light);
   padding: 8px 12px;
   height: 20px;
 
@@ -155,23 +163,27 @@ main {
 }
 
 .banner-news p{
-  color: #fdfdfd;
+  color: var(--white);
   font-size: small;
 }
 
 .banner-news a{
-  color: #fdfdfd;
+  color: var(--text-color-dark);
   text-decoration: none;
-}
-
-.banner-news a:hover{
-  font-weight: bold;
 }
 
 /* Section About Me */
 .left-side {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+
+  margin-right: 24px;
+  width: 100%;
+}
+
+.left-side-row{
+  display: flex;
   justify-content: space-between;
 
   margin-right: 24px;
@@ -218,21 +230,63 @@ main {
 }
 
 .card-content {
+  padding: 8px;
   text-align: left;
   width: 100%;
 }
 
-.card-content > a {
-    color: var(--secondary-color);
-    
+.card-content a > p{
+
+  display:inline-block;
+  color: var(--secondary-color);
+  margin-top: 8px;
 }
+
+
 /* Section */
 
+
+/*Site map*/
+#sitemap{
+  background-color: var(--primary-color);
+}
+
+/**/
 footer {
   background-color: var(--primary-color);
   max-width: 100%;
+  padding: 12px 0px;
 }
 
-footer > p {
-  color: #1d0765;
+footer .banner-section-row{
+  margin-top: 0px;
+}
+
+footer .right-side{
+  align-items: center;
+  justify-content: center;
+}
+
+.topic-site p{
+  text-align: left;
+}
+
+.social-media a{
+  margin: 4px;
+}
+
+.social-media img{
+  background-color: var(--white);
+  border-radius: 7%;
+}
+
+.social-media img:hover{
+  width: 42px;
+  height: 42px;
+}
+
+footer p {
+  padding-top: 4px;
+  text-align: center;
+  color: var(--text-color-dark);
 }
