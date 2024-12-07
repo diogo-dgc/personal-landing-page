@@ -1,0 +1,129 @@
+@import "./styles.css";
+
+h1 {
+  font-size: var(--text-lg);
+}
+
+h2 {
+  font-size: var(--text-md);
+}
+
+h3 {
+  font-size: var(--text-sm);
+}
+
+p {
+  font-size: var(--text-xs);
+}
+
+button {
+  min-height: 25px;
+  min-width: 80px;
+  max-width: 300px;
+  padding: 0px 12px;
+
+  font-size: small;
+  text-align: center;
+  border-radius: 50px;
+}
+
+a {
+  font-size: var(--text-xs);
+}
+
+img{
+  max-width: 80px;
+  max-height: 80px;
+}
+
+nav{
+  padding: 4px 0px;
+}
+
+.mobile-nav {
+  color: var(--dark);
+}
+
+.links, .cta {
+  display: none;
+}
+
+main{
+  padding: 0px 2%;
+  text-align: center;
+}
+
+.banner-section-row,
+.banner-section-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-image{
+  display: none;
+}
+
+/* Section About Me */
+.left-side, .right-side{
+  
+}
+
+.left-side-row {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+/* Section Project */
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.card-collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-collection-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  width: 210px;
+  height: auto;
+
+  background-color: var(--white);
+}
+
+.card-content {
+  text-align: left;
+  width: 100%;
+}
+
+.card-content a > p {
+  display: flex;
+  color: var(--secondary-color);
+  margin-top: 8px;
+}
+
+/* Section */
+footer .left-side-row{
+  display: none;
+}
+
+
+footer .right-side{
+  margin-top: 12px;
+  align-items: center;
+  justify-content: center;
+}
+

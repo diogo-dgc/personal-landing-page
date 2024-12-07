@@ -1,0 +1,156 @@
+@import "./styles.css";
+
+h1{
+  font-size: var(--text-xl);
+}
+
+h2 {
+  font-size: var(--text-lg);
+}
+
+h3 {
+  font-size: var(--text-md);
+}
+
+p {
+  font-size: var(--text-sm);
+}
+
+button {
+  height: 40px;
+  min-width: 120px;
+  max-width: 240px;
+  padding: 10px 24px;
+
+  font-size: small;
+  text-align: center;
+  border-radius: 100px;
+}
+  
+a {
+  font-size: var(--text-sm);
+}
+
+.mobile-nav{
+  display: none;
+}
+
+.links {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+
+  padding: 8px 0px;
+  margin-right: 24px;
+}
+
+.links > a {
+  text-align: center;
+  padding: 12px;
+
+  font-size: var(--text-md);
+  color: var(--dark);
+}
+
+.cta {
+  margin: 10px;
+}
+
+.banner-section-row {
+  display: flex;
+  margin: 80px 160px 24px;
+}
+
+.banner-section-column {
+  display: flex;
+  flex-direction: column;
+  margin: 80px 160px 24px;
+}
+
+/* Section About Me */
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-right: 24px;
+  width: 100%;
+}
+
+.left-side-row {
+  display: flex;
+  justify-content: space-between;
+
+  margin-right: 24px;
+  width: 100%;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.right-side > img {
+  border-radius: 8px;
+}
+
+/* Section Project */
+.banner-section-column > .title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.card-collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-collection-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  width: 210px;
+  height: auto;
+
+  background-color: var(--white);
+}
+
+.card-content {
+  padding: 8px;
+  text-align: left;
+  width: 100%;
+}
+
+.card-content a > p {
+  display: inline-block;
+  color: var(--secondary-color);
+  margin-top: 8px;
+}
+
+/* Section */
+
+/**/
+
+footer .right-side {
+  align-items: center;
+  justify-content: center;
+}
+
+.topic-site p {
+  text-align: left;
+}
+
+.social-media img:hover {
+  width: 42px;
+  height: 42px;
+}
