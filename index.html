@@ -27,18 +27,23 @@
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 
     <!-- Using adaptative design -->
-    <link rel="stylesheet" media="screen and (min-width: 1024px)" href="src/css/widescreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="src/css/widescreen.css">
+    <!-- Tablet model
+     
     <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width:1023px)" href="src/css/middlescreen.css">
+
+    -->
     <link rel="stylesheet" media="screen and (max-width: 767px)" href="src/css/smallscreen.css">
 
     <script type="text/javascript" src="src/js/index.js" defer></script>
   </head>
   <body>
     <header>
-      <div id="logotipo">
-        <img src="src/img/diogo_cunha.webp" width="40" height="40" />
-      </div>
+      
       <nav>
+        <div class="logotipo">
+          <img src="src/img/diogo_logo.webp" width="40" height="40" />
+        </div>
         <div class="links">
           <a href="#about">Sobre</a>
           <a href="#projects">Projetos</a>
@@ -49,33 +54,45 @@
         <div class="cta">
           <button type="button">Acessar CV</button>
         </div>
+        <div class="mobile-nav">
+        </div>
       </nav>
-      <div class="mobile-nav">
-        <p>teste</p>
-      </div>
-    </header>
-    <main>
+      
       <div class="banner-news">
         <p>
+          <img width="16" height="16" src="https://img.icons8.com/color/16/brazil-circular.png" alt="brazil-circular"/>
           Esta landing page está sendo atualizada em tempo real - Início em
           25/11/2024. Enquanto isso, por favor, acesse o meu
           <a href="https://www.linkedin.com/in/diogo-dgc/" target="_blank">
             <u>LinkedIn</u>
+          </a> ou 
+          <a href="https://github.com/diogo-dgc" target="_blank">
+            <u>Github</u>
           </a>
-          ou
+        </p>
+        <p>
+          <img width="16" height="16" src="https://img.icons8.com/color/16/usa-circular.png" alt="usa-circular"/>
+          This landing page is releasing in real time - starting at
+          Nov. 25th, 2024. Meanwhile, please, have a look at my
+          <a href="https://www.linkedin.com/in/diogo-dgc/" target="_blank">
+            <u>LinkedIn</u>
+          </a> or 
           <a href="https://github.com/diogo-dgc" target="_blank">
             <u>Github</u>
           </a>
         </p>
       </div>
+    </header>
+    <main>
+     
 
       <div class="banner-section-row" id="about">
         <div class="left-side">
           <div class="title">
             <h1>Sobre mim</h1>
-            <h2>Liderança colaborativa</h2>
-            <h2>Pensamento estratégico</h2>
-            <h2>Paixão por conhecimento</h2>
+            <h3>Liderança colaborativa</h3>
+            <h3>Pensamento estratégico</h3>
+            <h3>Paixão por conhecimento</h3>
           </div>
           <p>
             Conheça minha trajetória e paixões! Explore meu CV e veja como
@@ -84,7 +101,7 @@
 
           <button type="button">Clique aqui para me conhecer!</button>
         </div>
-        <div class="right-side">
+        <div class="right-side" id="hero-image">
           <img
             src="src/img/diogo_cunha.webp"
             alt="Diogo Cunha`s profile photo"

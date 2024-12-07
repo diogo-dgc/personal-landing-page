@@ -1,13 +1,13 @@
 :root {
-
   /* Text properties */
-    font-size: 10px;
-    font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
 
-    --text-sm: 1.2rem;
-    --text-md: 1.6rem;
-    --text-lg: 2.4rem;
-    --text-xl: 3.2rem;
+  --text-xs: x-small;
+  --text-sm: small;
+  --text-md: medium;
+  --text-lg: large;
+  --text-xl: x-large;
 
   /* Color properties */
   --black: #202020;
@@ -24,13 +24,119 @@
 
   --detail-color: #afff2f;
   --decking-color: #12ffa5;
+
+  /* Dimensions properties */
+  
+  overflow-x: hidden;
 }
 
 * {
-    
-    padding: 0;
-    margin: 0;
-    vertical-align: baseline;
-    list-style: none;
-    border: 0;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  text-overflow: ellipsis;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--text-color-dark);
+}
+
+p {
+  color: var(--dark);
+}
+
+img{
+  margin: 1% 0px;
+}
+
+button {
+  cursor: pointer;
+
+  color: var(--white);
+  text-align: center;
+
+  background-color: var(--text-color-middle);
+  transition: 0.2s;
+
+  margin: 2% 0px;
+}
+
+button:hover {
+  background-color: var(--text-color-dark);
+  font-weight: bold;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+body {
+  background-color: var(--white);
+  max-width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+nav {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+  background-color: var(--primary-color);
+  width: 100%;
+  
+}
+
+.banner-news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 8px 0px;
+
+  background-color: var(--text-color-light);
+}
+
+.banner-news img{
+  margin: 0;
+}
+
+.banner-news p {
+  width: 80%;
+  padding: 4px 0px;
+  text-align: center;
+  color: var(--white);
+}
+
+.banner-news a {
+  color: var(--text-color-dark);
+}
+
+main {
+  background-color: var(--white);
+}
+
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  width: 100%;
+}
+
+footer .banner-section-row {
+  margin-top: 0px;
 }
