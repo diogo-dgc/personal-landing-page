@@ -1,0 +1,111 @@
+@import "./styles.css";
+
+h1 {
+  font-size: var(--text-lg);
+}
+
+h2 {
+  font-size: var(--text-md);
+}
+
+h3 {
+  font-size: var(--text-sm);
+}
+
+p {
+  font-size: var(--text-xs);
+}
+
+
+
+button {
+  min-height: 25px;
+  min-width: 80px;
+  max-width: 300px;
+  padding: 0px 12px;
+
+  font-size: small;
+  text-align: center;
+  border-radius: 50px;
+}
+
+a {
+  font-size: var(--text-xs);
+}
+
+img{
+  max-width: 80px;
+  max-height: 80px;
+}
+
+nav{
+  padding: 4px 0px;
+  justify-content: center;
+}
+
+.mobile-nav {
+  color: var(--dark);
+}
+
+.links, .cta {
+  display: none;
+}
+
+main{
+  padding: 0px 2%;
+  text-align: center;
+}
+
+.banner-section-row,
+.banner-section-column {
+  flex-direction: column;
+    margin: 16px 32px;
+}
+
+#hero-image > img{
+  border-radius: 100%;
+}
+
+/* Section About Me */
+.card-collection{
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card{
+  flex-direction: row;
+  height: 60px;
+  padding-top: 16px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-left: 12px;
+  text-align: left;
+}
+
+.left-side-row {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+/* Section Project */
+
+/* Section */
+footer .left-side-row{
+  display: none;
+}
+
+
+footer .right-side{
+  margin-top: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
