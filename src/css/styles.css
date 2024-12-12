@@ -131,6 +131,25 @@ main {
   background-color: var(--white);
 }
 
+.tag-collection{
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+
+  margin-top: 4px;
+  width: 100%;
+}
+
+.sm-tag{
+  background-color: var(--text-color-middle);
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.sm-tag > p{
+  color: var(--white);
+}
+
 footer {
   text-align: center;
   background-color: var(--primary-color);
