@@ -38,19 +38,18 @@ a {
 .links {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: flex-end;
+  justify-content: left;
+  align-items: center;
 
-  padding: 8px 0px;
-  margin-right: 24px;
+  width: 70%;
 }
 
 .links > a {
-  text-align: center;
-  padding: 12px;
-
   font-size: var(--text-md);
   color: var(--dark);
+
+  text-align: left;
+  padding-right: 24px;
 }
 
 .cta {
@@ -58,24 +57,37 @@ a {
 }
 
 .banner-section-row {
-  display: flex;
-  margin: 80px 160px 24px;
+  justify-content: space-around;
 }
 
 .banner-section-column {
-  display: flex;
   flex-direction: column;
-  margin: 80px 160px 24px;
+}
+
+.card-collection {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card{
+  height: 280px;
+  width: 200px;
+}
+
+.card > img{
+  height: 200px;
+}
+
+.card-content{
+  height: 80px;
 }
 
 /* Section About Me */
-.left-side {
+.split-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  margin-right: 24px;
-  width: 100%;
+  padding-left: 12px;
 }
 
 .left-side-row {
@@ -83,63 +95,21 @@ a {
   justify-content: space-between;
 
   margin-right: 24px;
-  width: 100%;
 }
 
 .right-side {
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
-.right-side > img {
-  border-radius: 8px;
+#hero-img > img {
+  width: 10%;
+  height: 10%;
 }
 
-/* Section Project */
-.banner-section-column > .title {
-  text-align: center;
-  margin-bottom: 32px;
+footer{
+  padding-top: 16px;
 }
-
-.card-collection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.card-collection-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 24px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-
-  width: 210px;
-  height: auto;
-
-  background-color: var(--white);
-}
-
-.card-content {
-  padding: 8px;
-  text-align: left;
-  width: 100%;
-}
-
-.card-content a > p {
-  display: inline-block;
-  color: var(--secondary-color);
-  margin-top: 8px;
-}
-
-/* Section */
-
-/**/
 
 footer .right-side {
   align-items: center;
@@ -150,7 +120,3 @@ footer .right-side {
   text-align: left;
 }
 
-.social-media img:hover {
-  width: 42px;
-  height: 42px;
-}

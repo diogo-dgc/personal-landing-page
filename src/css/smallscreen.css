@@ -16,6 +16,8 @@ p {
   font-size: var(--text-xs);
 }
 
+
+
 button {
   min-height: 25px;
   min-width: 80px;
@@ -38,6 +40,7 @@ img{
 
 nav{
   padding: 4px 0px;
+  justify-content: center;
 }
 
 .mobile-nav {
@@ -55,17 +58,34 @@ main{
 
 .banner-section-row,
 .banner-section-column {
-  display: flex;
   flex-direction: column;
+    margin: 16px 32px;
 }
 
-#hero-image{
-  display: none;
+#hero-image > img{
+  border-radius: 100%;
 }
 
 /* Section About Me */
-.left-side, .right-side{
-  
+.card-collection{
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card{
+  flex-direction: row;
+  height: 60px;
+  padding-top: 16px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding-left: 12px;
+  text-align: left;
 }
 
 .left-side-row {
@@ -76,44 +96,6 @@ main{
 }
 
 /* Section Project */
-.title {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.card-collection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.card-collection-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 24px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-
-  width: 210px;
-  height: auto;
-
-  background-color: var(--white);
-}
-
-.card-content {
-  text-align: left;
-  width: 100%;
-}
-
-.card-content a > p {
-  display: flex;
-  color: var(--secondary-color);
-  margin-top: 8px;
-}
 
 /* Section */
 footer .left-side-row{
