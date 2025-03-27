@@ -227,8 +227,7 @@ body {
   background-color: var(--dark);
   min-height: 100vh;
   min-height: 100dvh;
-  display: grid;
-  grid-template-columns: auto auto auto 1fr;
+  display: flex;
 }
 
 .hidden-title{
@@ -377,10 +376,10 @@ body {
   background-color: var(--hover-clr);
 }
 
-
 main{
-  padding: min(30px, 7%);
+  padding: min(12px, 7%);
   min-height: 100vh;
+  width: 100%;
 }
 
 main p{
@@ -388,6 +387,62 @@ main p{
   margin-top: 5px;
   margin-bottom: 15px;
 }
+
+#layout-grid{
+  display: grid;
+  height: 100%;
+  gap: 12px;
+
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.grid-item{
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.grid-item1{
+  grid-column: 1 / span 2;
+}
+
+.grid-item2{
+  
+}
+
+.grid-item3{
+  grid-area: span 2 / span 2;
+}
+
+.grid-item4{
+  grid-column: 1 / span 3;
+}
+
+.grid-item5{
+  grid-area: span 2 / span 2;
+}
+
+.grid-item6{
+  grid-column: span 3;
+}
+
+.grid-item7{
+  grid-column: span 2;
+}
+
+.grid-item8{
+}
+
+.grid-item9{
+  grid-column: span 3;
+
+}
+.grid-item10{
+  grid-column: span 2;
+}
+
+
 .container{
   border: 1px solid var(--line-clr);
   border-radius: 1em;
