@@ -1,0 +1,8 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindStylesheet": [
+    "./rsc/input.css",
+    "./rsc/output.css"
+  ],
+  "tailwindPreserveWhitespace": true
+}
