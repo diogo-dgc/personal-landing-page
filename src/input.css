@@ -5,11 +5,16 @@
 @theme{
     --font-title: "Montserrat Alternates", sans-serif;
     --font-content: "Montserrat", sans-serif;
+
+    --color-primary: #5824FF;
+    --color-secondary: #9CA4FF;
+
 }
 
 @layer base{
     h1, h2, h3, h4{
         font-family: var(--font-title);
+        color: white;
     }
 
     h5, h6, p{
