@@ -21,3 +21,40 @@
         font-family: var(--font-content);
     }
 }
+
+@layer components{
+    .btn-navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: var(--radius-md);
+        box-shadow: var(--shadow-md);
+        width: 64px;
+        height: 64px;
+        svg{
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .btn-active{
+        background-color: var(--color-white);
+        svg{
+            fill: var(--color-primary);
+            &:hover{
+                @media (hover: hover){
+                    fill: var(--color-purple-600);
+                }
+            }
+        }
+    }
+
+    .btn-disabled{
+        background-color: var(--color-gray-200);
+        cursor: not-allowed;
+        svg{
+            fill: var(--color-gray-400);
+            
+        }
+    }
+}
