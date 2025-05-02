@@ -61,7 +61,7 @@
           <a href="#contact">Fale comigo</a>
         </div>
         <div class="cta">
-          <button type="button">Acessar CV</button>
+          <button type="button" onclick="openModal()">Acessar CV</button>
         </div>
         <div class="mobile-nav"></div>
       </nav>
@@ -80,6 +80,8 @@
       </div>
     </header>
     <main>
+
+
       <div class="banner-section-row" id="about">
         <div id="hero-image">
           <img
@@ -182,6 +184,12 @@
               alt="github"
             />
           </a>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <iframe id="pdfIframe" src="./assets/resume_diogo_tech_ai.pdf" style="width:100%;height:500px;"></iframe>
+        </div>
       </div>
     </main>
     <footer>
