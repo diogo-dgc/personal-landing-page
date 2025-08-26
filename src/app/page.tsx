@@ -65,8 +65,11 @@ const FaFacebook = (props: React.SVGProps<SVGSVGElement>) => (
 </svg>
 );
 const FaWhatsapp = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" {...props}><path fill="currentColor" d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21c5.46 0 9.91-4.45 9.91-9.91c0-5.46-4.45-9.91-9.91-9.91m4.53 12.62c-.28-.14-1.65-.82-1.9-.91c-.26-.09-.44-.14-.63.14c-.19.28-.72.91-.88 1.1c-.16.19-.32.21-.59.07c-.28-.14-1.18-.43-2.25-1.39c-.83-.75-1.4-1.68-1.56-1.97c-.16-.28-.01-.43.12-.57c.12-.12.27-.32.4-.48c.14-.17.18-.28.28-.47c.09-.19.05-.36-.02-.5c-.07-.14-.62-1.5-1-2.04c-.34-.55-.7-.47-.95-.48c-.23-.01-.48-.01-.73-.01c-.25 0-.66.09-.99.47c-.33.38-1.26 1.23-1.26 2.99c0 1.76 1.29 3.47 1.47 3.71c.18.24 2.53 3.89 6.12 5.4c.86.36 1.53.58 2.06.75c.78.25 1.49.21 2.05.13c.62-.09 1.65-.68 1.88-1.33c.24-.65.24-1.21.17-1.33c-.07-.13-.25-.21-.53-.35"></path></svg>
+  <span className="material-symbols-outlined">
+    comment
+  </span>  
 );
+
 const SiFigma = (props: React.SVGProps<SVGSVGElement>) => (
   <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48" {...props}>
 <linearGradient id="q17mbB32E_FbIzPpfjq_Ta_W0YEwBDDfTeu_gr1" x1="16.309" x2="23.023" y1="1.101" y2="19.546" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f44f5a"></stop><stop offset=".443" stop-color="#ee3d4a"></stop><stop offset="1" stop-color="#e52030"></stop></linearGradient><path fill="url(#q17mbB32E_FbIzPpfjq_Ta_W0YEwBDDfTeu_gr1)" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><linearGradient id="q17mbB32E_FbIzPpfjq_Tb_W0YEwBDDfTeu_gr2" x1="15.64" x2="22.314" y1="14.636" y2="32.971" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ae4cd5"></stop><stop offset="1" stop-color="#9331bf"></stop></linearGradient><path fill="url(#q17mbB32E_FbIzPpfjq_Tb_W0YEwBDDfTeu_gr2)" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><linearGradient id="q17mbB32E_FbIzPpfjq_Tc_W0YEwBDDfTeu_gr3" x1="14.81" x2="21.821" y1="26.357" y2="45.617" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#33c481"></stop><stop offset="1" stop-color="#21a366"></stop></linearGradient><path fill="url(#q17mbB32E_FbIzPpfjq_Tc_W0YEwBDDfTeu_gr3)" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><linearGradient id="q17mbB32E_FbIzPpfjq_Td_W0YEwBDDfTeu_gr4" x1="27.498" x2="34.119" y1=".512" y2="18.702" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f09ca2"></stop><stop offset="1" stop-color="#eb6773"></stop></linearGradient><path fill="url(#q17mbB32E_FbIzPpfjq_Td_W0YEwBDDfTeu_gr4)" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><linearGradient id="q17mbB32E_FbIzPpfjq_Te_W0YEwBDDfTeu_gr5" x1="28.714" x2="34.857" y1="14.972" y2="31.85" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#32bdef"></stop><stop offset="1" stop-color="#1ea2e4"></stop></linearGradient><circle cx="32" cy="24" r="7" fill="url(#q17mbB32E_FbIzPpfjq_Te_W0YEwBDDfTeu_gr5)"></circle>
@@ -82,7 +85,7 @@ const content = {
   pt: {
     nav: { about: 'Sobre', projects: 'Projetos', contact: 'Contato' },
     hero: { title: 'Desenvolvendo Soluções', subtitle: 'do Hardware ao Software', description: 'Consultoria especializada em tecnologia de ponta. Crio sistemas inteligentes e eficientes, integrando hardware e software para alavancar o seu negócio.', cta: 'Vamos Conversar' },
-    about: { title: 'Sobre Mim', p1: 'Olá, sou Diogo Cunha. Com mais de 10 anos de experiência, atuo na intersecção entre hardware e software como Desenvolvedor, Professor e Pesquisador. Sou Doutor em Engenharia de Software, com foco em aplicar IA e sistemas embarcados para criar soluções completas e inovadoras.', p2: 'Minha paixão é unir o rigor acadêmico com a agilidade do mercado para resolver problemas complexos, desenvolvendo desde o firmware de baixo nível até aplicações inteligentes em nuvem que geram valor real.' },
+    about: { title: 'Sobre Mim', p1: 'Olá, sou Diogo Cunha. Com mais de 10 anos de experiência, desenvolvo projetos de hardware e software. Possuo diversas experiências como empreendedor, engenheiro de software, professor, mentor e investidor. Meu foco está em criar soluções completas e inovadoras.', p2: 'Minha paixão é unir o rigor acadêmico com a agilidade do mercado para resolver problemas complexos, desenvolvendo desde sistemas de baixo nível até aplicações inteligentes em nuvem que geram valor real.' },
     tech: { title: 'Tecnologias que Utilizo', hardware: 'Hardware', hardwareDesc: 'Criação de firmware e sistemas embarcados com foco em performance e baixo consumo. Linguagem principal: C/C++', web: 'Web', webDesc: 'Desenvolvimento full-stack de aplicações modernas, escaláveis e responsivas.', ai: 'Inteligência Artificial', aiDesc: 'Implementação de agentes de IA com RAG e ReAct, utilizando LLMs locais e via API.', essentials: 'Essenciais', essentialsDesc: 'Ferramentas de produtividade, versionamento e infraestrutura em nuvem.' },
     projects: { title: 'Projetos em Destaque', description: 'Uma seleção de projetos que demonstram minha capacidade de transformar desafios em soluções tecnológicas completas.', viewOnGithub: 'Ver no GitHub', viewDemo: 'Ver Demo' },
     contact: { title: 'Vamos construir algo incrível juntos?', description: 'Estou disponível para consultorias, desenvolvimento de projetos e parcerias. Se você tem uma ideia ou um desafio tecnológico, entre em contato.', emailBtn: 'Enviar um e-mail', whatsappBtn: 'Chamar no WhatsApp' },
@@ -91,7 +94,7 @@ const content = {
   en: {
     nav: { about: 'About', projects: 'Projects', contact: 'Contact' },
     hero: { title: 'Developing Solutions', subtitle: 'from Hardware to Software', description: 'Specialized consulting in cutting-edge technology. I create intelligent and efficient systems, integrating hardware and software to leverage your business.', cta: 'Let\'s Talk' },
-    about: { title: 'About Me', p1: 'Hello, I\'m Diogo Cunha. With over 10 years of experience, I work at the intersection of hardware and software as a Developer, Professor, and Researcher. I hold a Ph.D. in Software Engineering, focusing on applying AI and embedded systems to create complete and innovative solutions.', p2: 'My passion is to unite academic rigor with market agility to solve complex problems, developing everything from low-level firmware to intelligent cloud applications that generate real value.' },
+    about: { title: 'About Me', p1: 'Hello, I\'m Diogo Cunha. With over 10 years of experience, I work at the intersection of hardware and software as a Developer, Professor, and Researcher. I am focusing on applying AI and embedded systems to create complete and innovative solutions.', p2: 'My passion is to unite academic rigor with market agility to solve complex problems, developing everything from low-level firmware to intelligent cloud applications that generate real value.' },
     tech: { title: 'Technologies I Use', hardware: 'Hardware', hardwareDesc: 'Firmware and embedded systems creation with a focus on performance and low consumption. Main language: C/C++', web: 'Web', webDesc: 'Full-stack development of modern, scalable, and responsive applications.', ai: 'Artificial Intelligence', aiDesc: 'Implementation of AI agents with RAG and ReAct, using local and API-based LLMs.', essentials: 'Essentials', essentialsDesc: 'Productivity tools, version control, and cloud infrastructure.' },
     projects: { title: 'Featured Projects', description: 'A selection of projects that demonstrate my ability to turn challenges into complete technological solutions.', viewOnGithub: 'View on GitHub', viewDemo: 'View Demo' },
     contact: { title: 'Let\'s build something amazing together?', description: 'I am available for consulting, project development, and partnerships. If you have an idea or a technological challenge, get in touch.', emailBtn: 'Send an email', whatsappBtn: 'Chat on WhatsApp' },
@@ -99,17 +102,20 @@ const content = {
   },
 };
 
-// --- ÍCONES E DADOS ---
-const BrazilFlagIcon = () => (<img width="24" height="24" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/BR.svg"/>);
-const USFlagIcon = () => (<img width="24" height="24" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"/>);
 
-const portfolioProjects = [ { title: 'Sistema de Recomendação para E-commerce', description: 'Desenvolvimento de um motor de recomendação baseado em filtragem colaborativa e conteúdo, aumentando o engajamento do usuário em 25%.', tags: ['Python', 'Machine Learning', 'FastAPI', 'AWS'], githubUrl: 'https://github.com/diogo-dgc', liveUrl: '#', }, { title: 'Firmware para Dispositivo IoT', description: 'Criação de um sistema embarcado para monitoramento de sensores em tempo real, com otimização de consumo de energia e comunicação sem fio.', tags: ['C++', 'RTOS', 'ESP32', 'Hardware'], githubUrl: 'https://github.com/diogo-dgc', liveUrl: '#', }, { title: 'Dashboard de Métricas com IA', description: 'Criação de um painel interativo que utiliza modelos de previsão para antecipar tendências de mercado, auxiliando na tomada de decisão estratégica.', tags: ['Next.js', 'Tailwind CSS', 'D3.js', 'TensorFlow.js'], githubUrl: 'https://github.com/diogo-dgc', liveUrl: '#', }, ];
-const professionalLinks = { linkedin: 'https://www.linkedin.com/in/diogo-dgc/', github: 'https://github.com/diogo-dgc', orcid: 'https://orcid.org/0000-0003-4407-512X', figma: 'https://www.figma.com/@diogo_dgc', instagram: 'https://www.instagram.com/dgc.diogo/', facebook: 'https://www.facebook.com/dgc.diogo', email: 'mailto:contato@diogocunha.dev', whatsapp: 'https://wa.me/message/OYLKHBRYQTQMB1', };
+const BrazilFlagIcon = () => (<img width="32" height="32" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/BR.svg"/>);
+const USFlagIcon = () => (<img width="32" height="32" src="http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"/>);
+
+const portfolioProjects = [ 
+  { title: 'Sistema de Recomendação para E-commerce', description: 'Desenvolvimento de um motor de recomendação baseado em filtragem colaborativa e conteúdo, aumentando o engajamento do usuário em 25%.', tags: ['Python', 'Machine Learning', 'FastAPI', 'AWS'], githubUrl: 'https://github.com/diogo-dgc', liveUrl: '#', }, 
+  { title: 'Firmware para Dispositivo IoT', description: 'Criação de um sistema embarcado para monitoramento de sensores em tempo real, com otimização de consumo de energia e comunicação sem fio.', tags: ['C++', 'RTOS', 'ESP32', 'Hardware'], githubUrl: 'https://github.com/diogo-dgc', liveUrl: '#', },
+  { title: 'Dashboard de Métricas com IA', description: 'Criação de um painel interativo que utiliza modelos de previsão para antecipar tendências de mercado, auxiliando na tomada de decisão estratégica.', tags: ['Next.js', 'Tailwind CSS', 'D3.js', 'TensorFlow.js'], githubUrl: 'https://github.com/diogo-dgc', liveUrl: '#', }, ];
+const professionalLinks = { linkedin: 'https://www.linkedin.com/in/diogo-dgc/', github: 'https://github.com/diogo-dgc', orcid: 'https://orcid.org/0000-0003-4407-512X', figma: 'https://www.figma.com/@diogo_dgc', instagram: 'https://www.instagram.com/dgc.diogo/', facebook: 'https://www.facebook.com/dgc.diogo', email: 'mailto:oi@diogocunha.com.br', whatsapp: 'https://wa.me/551150431639', };
 const technologies = { hardware: { icon: 'https://api.iconify.design/mdi/cpu-64-bit.svg?color=%238b5cf6', items: ['Atmel ATMega', 'Espressif'], }, web: { icon: 'https://api.iconify.design/mdi/web.svg?color=%238b5cf6', items: ['Next.js', 'Nest.js', 'Tailwind CSS'], }, ai: { icon: 'https://api.iconify.design/mdi/brain.svg?color=%238b5cf6', items: ['Python', 'RAG', 'ReAct Agents'], }, essentials: { icon: 'https://api.iconify.design/mdi/toolbox-outline.svg?color=%238b5cf6', items: ['Git/GitHub', 'Azure/GCP', 'Figma'], } }
 
-// --- COMPONENTES DA UI ---
+// --- UI COMPONENTS ---
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (<a href={href} className="text-slate-600 dark:text-slate-300 hover:text-violet-600 dark:hover:text-violet-400 transition-colors duration-300">{children}</a>);
-const SocialLink = ({ href, icon: Icon, label }: { href: string; icon: React.ElementType; label: string }) => (<a href={href} target="_blank" rel="noopener noreferrer" aria-label={label} className="text-slate-500 dark:text-slate-400 hover:text-violet-600 dark:hover:text-violet-400 transition-colors duration-300"><Icon size={24} /></a>);
+const SocialLink = ({ href, icon: Icon, label }: { href: string; icon: React.ElementType; label: string }) => (<a href={href} target="_blank" rel="noopener noreferrer" aria-label={label} className="text-slate-500 dark:text-slate-400 hover:text-violet-600 dark:hover:text-violet-400 transition-colors duration-300"><Icon height={48} width={48} /></a>);
 type ProjectCardProps = {
   title: string;
   description: string;
@@ -131,10 +137,10 @@ const ProjectCard = ({ title, description, tags, githubUrl, liveUrl, lang }: Pro
   </div>
 );
 
-// --- COMPONENTE PRINCIPAL ---
+// --- MAIN COMPONENT ---
 export default function LandingPage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
   const [language, setLanguage] = useState<'pt' | 'en'>('pt');
 
   useEffect(() => {
@@ -171,7 +177,16 @@ export default function LandingPage() {
                 <NavLink href="#projetos">{currentContent.nav.projects}</NavLink>
                 <NavLink href="#contato">{currentContent.nav.contact}</NavLink>
               </nav>
-              <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} className="p-2 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors duration-300" aria-label="Toggle theme">{theme === 'dark' ? <MdSunny width={20} height={20} /> : <MdNightlight width={20} height={20} />}</button>
+              
+              {/*}
+              <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} 
+                className="p-2 rounded-full text-slate-500 dark:text-slate-400 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors duration-300"
+                aria-label="Toggle theme">
+                {theme === 'dark' ? 
+                  <MdSunny width={20} height={20} /> : 
+                  <MdNightlight width={20} height={20} />}
+              </button>
+               */}
               <button onClick={() => setLanguage(language === 'pt' ? 'en' : 'pt')} className="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors duration-300" aria-label="Toggle language">{language === 'pt' ? <BrazilFlagIcon /> : <USFlagIcon />}</button>
               <div className="md:hidden"><button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Abrir menu" className="text-slate-800 dark:text-slate-300 p-2">{isMenuOpen ? <MdClose width={24} height={24} /> : <MdMenu width={24} height={24} />}</button></div>
             </div>
@@ -187,11 +202,13 @@ export default function LandingPage() {
             <a href="#contato" className="inline-flex items-center gap-2 bg-violet-600 text-white font-bold py-3 px-8 rounded-lg hover:bg-violet-500 transition-all duration-300 shadow-lg shadow-violet-500/30">{currentContent.hero.cta} <MdArrowForward width={20} height={20} /></a>
           </div>
         </section>
-        <section id="sobre" className="py-20 md:py-32">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid md:grid-cols-5 gap-8 md:gap-12 items-center">
-              <div className="md:col-span-2"><img src="https://media.licdn.com/dms/image/D4D03AQH-gE5fUv2yNQ/profile-displayphoto-shrink_800_800/0/1685121434313?e=1729728000&v=beta&t=f6xJq_k2e9wzH-qC8_G7-v2Y_2x_c_j_9o8A_l_i_k_s" alt="Foto de Diogo Cunha" className="rounded-lg w-full h-full object-cover border-4 border-slate-200 dark:border-slate-700" onError={(e) => { e.currentTarget.src = 'https://placehold.co/600x600/e2e8f0/475569?text=Diogo+Cunha'; }} /></div>
-              <div className="md:col-span-3">
+        <section id="sobre" className="py-12 md:py-12">
+          <div className="container items-center mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-11 items-center justify-around gap-8 md:gap-12 ">
+              <div className="md:col-span-1"></div>
+              <div className="md:col-span-2">
+                <img src="https://avatars.githubusercontent.com/u/102988829?s=96&v=4" alt="Foto de Diogo Cunha" className="rounded-full w-full h-full object-cover border-4 border-slate-200 dark:border-slate-700" onError={(e) => { e.currentTarget.src = 'https://placehold.co/600x600/e2e8f0/475569?text=Diogo+Cunha'; }} /></div>
+              <div className="md:col-span-7">
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">{currentContent.about.title}</h2>
                 <p className="text-slate-600 dark:text-slate-400 mb-4 leading-relaxed">{currentContent.about.p1}</p>
                 <p className="text-slate-600 dark:text-slate-400 mb-6 leading-relaxed">{currentContent.about.p2}</p>
@@ -235,7 +252,7 @@ export default function LandingPage() {
             <p className="max-w-2xl mx-auto mt-4 text-slate-600 dark:text-slate-400 mb-8">{currentContent.contact.description}</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                <a href={professionalLinks.email} className="inline-flex w-full sm:w-auto items-center justify-center gap-3 bg-slate-100 dark:bg-slate-800 text-violet-600 dark:text-violet-400 font-bold py-3 px-8 rounded-lg border border-slate-300 dark:border-slate-700 hover:bg-slate-200 dark:hover:bg-slate-700 hover:border-violet-500 dark:hover:border-violet-500 transition-all duration-300"><MdMail width={20} height={20} /> {currentContent.contact.emailBtn}</a>
-               <a href={professionalLinks.whatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex w-full sm:w-auto items-center justify-center gap-3 bg-green-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-600 transition-all duration-300"><FaWhatsapp width={20} height={20} /> {currentContent.contact.whatsappBtn}</a>
+               <a href={professionalLinks.whatsapp} target="_blank" rel="noopener noreferrer" className="inline-flex w-full sm:w-auto items-center justify-center gap-3 bg-green-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-green-600 transition-all duration-300"><FaWhatsapp width={48} height={48} /> {currentContent.contact.whatsappBtn}</a>
             </div>
           </div>
         </section>
